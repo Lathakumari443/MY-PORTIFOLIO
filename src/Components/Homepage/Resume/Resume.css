@@ -1,0 +1,91 @@
+/* Center the entire content in the page */
+.resume-container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Vertically center content */
+    align-items: center; /* Horizontally center content */
+    height: 100vh; /* Take up the full viewport height */
+    width: 100%;
+    text-align: center; /* Center the text */
+    padding: 20px;
+  }
+  
+  /* Styling for PDF embed */
+  embed {
+    border: 1px solid #ccc;
+    margin-bottom: 20px; /* Space between resume and button */
+    border-radius: 8px;
+    width: 100%; /* Make the embed responsive */
+    max-width: 800px; /* Limit max width */
+    height: 600px; /* Fixed height */
+  }
+  
+  /* Styling the download button */
+  .download-btn {
+    padding: 10px 20px;
+    background-color: #dc3545; /* Bootstrap 'danger' button color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  /* Button hover effect */
+  .download-btn:hover {
+    background-color: #c82333; /* Darker shade when hovered */
+  }
+  
+  .download-section {
+    margin-top: 20px; /* Adds space above the download button */
+  }
+  
+  /* Responsive Design */
+  
+  /* For tablets and smaller devices */
+  @media (max-width: 1024px) {
+    .resume-container {
+      padding: 15px; /* Reduce padding for smaller screens */
+    }
+  
+    embed {
+      height: 500px; /* Adjust embed height for smaller screens */
+    }
+  
+    .download-btn {
+      padding: 8px 16px; /* Smaller button on tablets */
+      font-size: 14px; /* Slightly smaller font for mobile devices */
+    }
+  }
+  
+  /* For mobile devices */
+  @media (max-width: 768px) {
+    .resume-container {
+      padding: 10px; /* Further reduce padding on mobile */
+    }
+  
+    embed {
+      height: 400px; /* Reduce embed height for mobile */
+    }
+  
+    .download-btn {
+      padding: 8px 15px; /* Smaller button on smaller screens */
+      font-size: 14px; /* Smaller font size */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .resume-container {
+      padding: 10px; /* Adjust for very small screens */
+    }
+  
+    embed {
+      height: 300px; /* Reduce embed height on small screens */
+    }
+  
+    .download-btn {
+      padding: 8px 12px; /* Even smaller button for very small screens */
+      font-size: 12px; /* Smaller font size */
+    }
+  }
+  

@@ -1,0 +1,95 @@
+/* General styles for card header */
+.card-header {
+  background: linear-gradient(to right, #7a51a5, #1c4ea5); /* Custom gradient */
+  color: white; /* Ensure contrast */
+  padding: 15px; /* Add spacing */
+  border-radius: 5px 5px 0 0; /* Smooth edges for the card header */
+}
+
+/* Card title */
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px; /* Add spacing below the title */
+  text-align: center; /* Center align for better presentation */
+}
+
+/* Card text */
+.card-text {
+  font-size: 1rem;
+  color: #14a740; /* Match muted color */
+  text-align: justify; /* Align text for clean appearance */
+  margin: 10px 0; /* Add vertical spacing */
+}
+
+/* Slick slider navigation arrows */
+.slick-prev:before,
+.slick-next:before {
+  color: black; /* Arrow color */
+  font-size: 20px; /* Ensure visibility of arrows */
+}
+
+/* Adjust margins for slick slides */
+.slick-slide > div {
+  margin: 0 10px; /* Space between slides */
+  transition: margin 0.3s ease; /* Smooth transitions on resizing */
+}
+
+/* Responsive design */
+
+/* Tablets and smaller screens (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .card-title {
+    font-size: 1.3rem; /* Slightly smaller title for tablets */
+  }
+
+  .card-text {
+    font-size: 0.95rem; /* Adjust text size for readability */
+  }
+
+  /* Slick slider */
+  .slick-slide > div {
+    margin: 0 8px; /* Adjust slide margins */
+  }
+}
+
+/* Small devices (max-width: 768px) */
+@media (max-width: 768px) {
+  .card-header {
+    text-align: center; /* Center align header text */
+  }
+
+  .card-title {
+    font-size: 1.1rem; /* Reduce font size */
+  }
+
+  .card-text {
+    font-size: 0.85rem; /* Adjust text size */
+  }
+
+  /* Slick slider */
+  .slick-slide > div {
+    margin: 0 5px; /* More compact slides */
+  }
+}
+
+/* Extra small devices (max-width: 480px) */
+@media (max-width: 480px) {
+  .card-header {
+    font-size: 0.9rem; /* Scale down header text */
+    padding: 10px; /* Adjust padding */
+  }
+
+  .card-title {
+    font-size: 1rem; /* Reduce size for smaller devices */
+  }
+
+  .card-text {
+    font-size: 0.75rem; /* Adjust text size */
+  }
+
+  /* Slick slider */
+  .slick-slide > div {
+    margin: 0 3px; /* Tighten space between slides */
+  }
+}

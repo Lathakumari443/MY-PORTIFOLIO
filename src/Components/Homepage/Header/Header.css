@@ -1,0 +1,89 @@
+.Head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+   
+}
+.AboutMe-img img {
+    display: flex;
+    width:70%; /* Adjust width as needed */
+    height: 100%;
+    margin-top: 20px;
+    margin-left: 100px;
+    border-radius: 50%;
+    border: #8e44ad;
+    
+}
+
+.AboutMe-container{
+  justify-content: start;
+  margin:autox;
+  width: 100%;
+  /* border-radius: 5px; */
+}
+
+/* Header Section */
+header {
+  text-align: center;
+  width:100%;
+  margin-right:10px;
+  padding: 50px 20px;
+  background: linear-gradient(120deg, #3498db, #8e44ad);
+  color: white;
+  /* border-radius: 10px; */
+} 
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header h1 span {
+  color: #f1c40f;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+header a {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #333;
+  background: #f1c40f;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+header a:hover {
+  background: #e67e22;
+  color: white;
+}
+
+/* About Section */
+#about {
+  width:100%;
+  margin-right: 250px;
+  padding: 50px 20px;
+  text-align: center;
+  background: #ecf0f1;
+  border-radius: 10px;
+  min-height: 200px;
+}
+
+#about h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #8e44ad;
+}
+
+#about p {
+  font-size: 1rem;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto;
+}

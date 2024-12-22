@@ -1,0 +1,150 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+}
+
+/* Background Image Styling */
+.react-bg img {
+  width: 100%; /* Ensures full-width on all devices */
+  height: auto; /* Maintains aspect ratio */
+  max-height: 550px; /* Limits max height */
+  margin: 0;
+  padding: 0;
+}
+
+/* Skills Section Container */
+.container-2 {
+  max-width: 1200px; /* Limits content width */
+  margin: 20px auto; /* Centers content */
+  padding: 20px; /* Adds space around content */
+}
+
+/* Title Styling */
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: blueviolet;
+  margin-bottom: 40px;
+}
+
+/* Skills Cards Section */
+.product {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping of items */
+  justify-content: center;
+  gap: 20px; /* Space between cards */
+}
+
+.product-list {
+  background: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 250px; /* Restricts card width */
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-list:hover {
+  transform: scale(1.05); /* Adds a zoom effect */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.product-list img {
+  width: 100%;
+  height: auto; /* Keeps aspect ratio */
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.product-list h2 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  color: #333;
+}
+
+.product-list dl {
+  margin: 0;
+  padding: 0;
+}
+
+.product-list dt {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.product-list dd {
+  font-size: 1rem;
+  color: #555;
+}
+
+mark {
+  background-color: #ffe4b2;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+/* Responsive Design */
+
+/* Tablets (768px and smaller) */
+@media (max-width: 768px) {
+  .container-2 {
+    padding: 15px; /* Reduces padding */
+  }
+
+  h1 {
+    font-size: 2rem; /* Smaller title for mobile */
+  }
+
+  .product-list {
+    width: 100%;
+    max-width: 300px; /* Slightly larger cards */
+    margin: auto; /* Center-align each card */
+  }
+}
+
+/* Mobile Devices (480px and smaller) */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.8rem; /* Smaller heading for smaller screens */
+  }
+
+  .product {
+    flex-direction: column; /* Stack cards vertically */
+    gap: 10px; /* Reduce gap between cards */
+  }
+
+  .product-list {
+    max-width: 90%; /* Allow cards to take up more space */
+    margin: 0 auto; /* Center cards */
+  }
+}
+
+/* Ultra-Small Devices (320px and smaller) */
+@media (max-width: 320px) {
+  h1 {
+    font-size: 1.5rem; /* Smaller title for ultra-small screens */
+  }
+
+  .product-list {
+    padding: 15px; /* Smaller padding */
+    max-width: 100%; /* Full width */
+  }
+
+  .product img {
+    max-height: 150px; /* Smaller images */
+  }
+}

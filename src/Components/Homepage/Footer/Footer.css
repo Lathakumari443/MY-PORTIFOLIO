@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.logo-container {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 20px; /* Space between logo and navbar */
+}
+
+.logo {
+    width: 100px; /* Adjust size as needed */
+}
+
+.footer-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px; /* Space between nav items */
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #251515; /* Adjust color as needed */
+    font-weight: bold; /* Adjust style as needed */
+}
+
+.nav-item a:hover {
+    text-decoration: underline; /* Add hover effect if needed */
+}

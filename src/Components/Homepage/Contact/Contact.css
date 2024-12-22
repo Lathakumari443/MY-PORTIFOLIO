@@ -1,0 +1,100 @@
+
+/* Contact Section */
+#contact {
+    padding: 50px 20px;
+    text-align: center;
+    background: bisque;
+    max-width: 600px; /* Constrain section width */
+    margin: 50px auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: all 0.3s ease; /* Smooth transitions for responsiveness */
+}
+
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #e06e0a;
+    text-transform: uppercase; /* Style the heading */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+   
+  
+  
+
+}
+
+#contact p {
+    font-size: 1rem;
+    margin: 10px 0;
+    line-height: 1.5; /* Improve readability */
+    color: #333;
+}
+
+#contact a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+    color: #2874a6; /* Darker color on hover */
+}
+
+/* Responsive Design */
+
+/* Medium screens (tablets and small laptops) */
+@media (max-width: 1024px) {
+    #contact {
+        padding: 40px 15px; /* Reduce padding */
+        max-width: 80%; /* Allow the section to scale */
+    }
+
+    #contact h2 {
+        font-size: 1.8rem; /* Reduce heading size slightly */
+    }
+
+    #contact p {
+        font-size: 0.95rem; /* Adjust paragraph font size */
+    }
+}
+
+/* Small devices (mobile phones) */
+@media (max-width: 768px) {
+    #contact {
+        padding: 30px 10px; /* Further reduce padding */
+        max-width: 90%; /* Allow the section to occupy more space */
+    }
+
+    #contact h2 {
+        font-size: 1.6rem; /* Smaller heading for mobile */
+    }
+
+    #contact p {
+        font-size: 0.9rem; /* Adjust text size */
+    }
+}
+
+/* Extra small devices (very small phones) */
+@media (max-width: 480px) {
+    #contact {
+        padding: 20px 5px; /* Minimal padding for small screens */
+        margin: 20px auto; /* Adjust spacing */
+    }
+
+    #contact h2 {
+        font-size: 1.4rem; /* Reduce heading size further */
+    }
+
+    #contact p {
+        font-size: 0.85rem; /* Smaller text for small screens */
+    }
+
+    #contact a {
+        font-size: 0.9rem; /* Scale link size */
+    }
+}
+
+
