@@ -1,13 +1,11 @@
-import React, {useEffect}from 'react'
+import React, { useEffect } from 'react'
 import './Skills.css'
 
 
 import htmlImage from '../images/html.jpeg';
 import cssImage from '../images/css.jpeg';
 import jsImage from '../images/js.jpeg';
-import reactImage from '../images/react.jpeg'
-import reactjsImage from '../images/reactjs.jpeg'
-
+import reactImage from '../images/react.jpeg';
 
 function Skills() {
   useEffect(() => {
@@ -16,61 +14,76 @@ function Skills() {
 
   return (
     <>
-      <div className="react-bg">
-      <img src={reactjsImage} alt="react" />
-      </div>
+      
 
       <div className="container-2">
         <h1 style={{ textAlign: 'center', color: 'blueviolet' }}>
-          <b>Frontend Technologies Skills</b>
+          <b>Job Roles</b>
         </h1>
         <br />
         <br />
 
-        <div className="product">
-          <div className="product-list">
-          <img src={htmlImage} alt="html" />
-            <h1>HTML</h1>
-            <dl>
-              <dt>
-                <b>HTML...stands for Hypertext Markup Language</b>
-              </dt>
-              <dd>The main purpose of HTML is to create the <mark>Structure</mark> of the website.</dd>
-            </dl>
-          </div>
+     <div className="product">
+  <div className="product-list">
+    <img src={htmlImage} alt="data-analyst" />
+    <h3>Business or Data Analyst </h3><br />
+
+    <ul>
+      <li>Business Systems Analyst</li> <br />
+      <li>Business Analyst</li><br />
+      <li>Technical Business Analyst</li><br />
+      <li>Business Data Analyst</li><br />
+      <li>Data Analyst</li><br />
+      <li>BI Analyst / Business Intelligence Analyst</li><br />
+      <li>Power BI Developer</li><br />
+      <li>Systems Analyst</li><br />
+      <li>Process Analyst</li><br />
+      <li>Operations Analyst</li><br />
+      <li>Data Quality / Data Governance Analyst</li><br />
+    </ul>
+  </div>
+
+
+<div className="product-list">
+  <img src={cssImage} alt="quality-engineer" />
+  <h3>Quality Engineer</h3><br />
+
+  <ul>
+       <li>Junior Quality Engineer</li><br />
+       <li>Quality Engineer I</li><br />
+       <li>Quality Engineer II</li><br />
+      <li>Manufacturing Engineer (Entry Level)</li><br />
+    <li>Graduate Manufacturing Engineer</li><br />
+    <li>Process Engineer I</li><br />
+    <li>Associate Process Engineer (Entry)</li><br />
+    <li>Industrial Engineer I</li><br />
+    <li>Junior Industrial Engineer</li><br />
+  
+   
+    <li>Project Engineer (Entry)</li><br />
+    <li>Assistant Project Engineer</li><br />
+  </ul>
+</div>
 
           <div className="product-list">
-          <img src={cssImage} alt="css" />
-            <h1>CSS</h1>
-            <dl>
-              <dt>
-                <b>CSS... stands for Cascading Style Sheet</b>
-              </dt>
-              <dd>The main purpose of CSS is to improve the <mark>Layout & Design</mark> of the website using HTML tags.</dd>
-            </dl>
-          </div>
+            <img src={jsImage} alt="js" />
+            <h3>Manufacture Engineer</h3><br />
+             <ul>
+    <li>Manufacturing Engineer (Entry Level)</li><br />
+    <li>Graduate Manufacturing Engineer</li><br />
+    <li>Process Engineer I</li><br />
+    <li>Associate Process Engineer (Entry)</li><br />
+    <li>Industrial Engineer I</li><br />
+    <li>Junior Industrial Engineer</li><br />
+    <li>Quality Engineer I</li><br />
+    <li>Junior Quality Engineer</li><br />
+    <li>Project Engineer (Entry)</li><br />
+    <li>Assistant Project Engineer</li><br />
+  </ul>
+</div>
 
-          <div className="product-list">
-          <img src={jsImage} alt="js" />
-            <h1>JavaScript</h1>
-            <dl>
-              <dt>
-                <b>JavaScript... is a high-level, interpreted, dynamically-typed programming language.</b>
-              </dt>
-              <dd>The main purpose of JavaScript is to <mark>add interactivity and dynamic behavior</mark> to a website.</dd>
-            </dl>
-          </div>
-
-          <div className="product-list">
-          <img src={reactImage} alt="react" />
-            <h1>React JS</h1>
-            <dl>
-              <dt>
-                <b>React JS... is a JavaScript Library, not a Framework.</b>
-              </dt>
-              <dd>React JS is used to <mark>build fast, dynamic, and interactive user interfaces</mark> for web applications.</dd>
-            </dl>
-          </div>
+          
+        
         </div>
       </div>
     </>

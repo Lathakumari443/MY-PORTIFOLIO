@@ -10,23 +10,25 @@ const About = () => {
 
   return (
     <div class='container-443'>
-      <p> Hi.. I'm <b>Latha Kumari</b><br /><br />
-        I’m B.Tech graduate from JNTUK University.
-
-        And I’m familiar with front-end technologies like..<b> HTML, CSS, JavaScript, and React.Js library. </b>
-        And I’m handling <b>UI</b> part in my project.<br /><br />
-
-        My greatest strength is...
-        My ability to stay organized & manage multiple tasks at once and also I’m flexible to handle the change.
+      <p> Hi.. I'm <b>Latha form INDIA</b>
+      <br />
+      <br />
+        I have great respect for your journey.
         <br />
         <br />
 
-        Every organization needs to good, honest and also hard working people, <br />
-        I'm also that kind of person.. If you give me a chance,
+      Every <b>International student</b> carries a story of courage, sacrifice, and ambition. Choosing to leave home and build a future in a new country is never easy, and I truly admire the strength behind that decision.
+       <br /><br />
+
+        My mission is to support USA students through dedicated job marketing support for up to 2–3 months, helping them gain visibility, connect with the right opportunities, and stay confident throughout their job search journey.
         <br />
         <br />
 
-        I’m excited to contribute your team success. <br /><br />
+        Your hard work creates success. I'm here to help your talent get noticed and move one step closer to the future you've worked so hard to build.
+        <br />
+        <br />
+
+        Your dream. Your effort. Your success.<br /><br />
         <b>Thank You!!</b> <b>In Advance</b>
 
 
