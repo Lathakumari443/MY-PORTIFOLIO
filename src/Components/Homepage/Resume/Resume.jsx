@@ -27,7 +27,7 @@ const Resume = () => {
         <div className="resume-card">
           <h3>Business Data Analyst</h3>
 
-          <embed
+          <iframe
             src={resumeDataAnalyst}
             type="application/pdf"
           />
@@ -45,7 +45,7 @@ const Resume = () => {
         <div className="resume-card">
           <h3>Business Systems Analyst</h3>
 
-          <embed
+          <iframe
             src={resumeBusinessAnalyst}
             type="application/pdf"
           />
@@ -63,7 +63,7 @@ const Resume = () => {
         <div className="resume-card">
           <h3>BA ATS Resume</h3>
 
-          <embed
+          <iframe
             src={resumeBA_ATS_Analyst}
             type="application/pdf"
           />
@@ -81,7 +81,7 @@ const Resume = () => {
         <div className="resume-card">
           <h3>Quality Engineer</h3>
 
-          <embed
+          <iframe
             src={resumeQualityAnalyst}
             type="application/pdf"
           />
@@ -99,7 +99,7 @@ const Resume = () => {
         <div className="resume-card">
           <h3>Manufacturing Engineer</h3>
 
-          <embed
+          <iframe
             src={resumeManufacturingAnalyst}
             type="application/pdf"
           />
