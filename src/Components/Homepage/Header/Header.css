@@ -2,90 +2,87 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 40px; /* text & image మధ్య spacing */
     padding: 20px;
-    flex-wrap: wrap;
-}
-
-.text-section {
-    flex: 1;
-    min-width: 300px;
-    text-align: left;
-}
-
-.AboutMe-img {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    min-width: 300px;
 }
 
 .AboutMe-img img {
     width: 350px;
     height: 350px;
-    max-width: 100%;
+    margin: 0; /* remove left margin */
     border-radius: 50%;
     object-fit: cover;
 }
 
-.AboutMe-container {
-    width: 100%;
-    margin: auto;
+.text-section {
+    text-align: left;
+}
+
+.AboutMe-container{
+  justify-content: center;
+  margin:autox;
+  width: 100%;
+  /* border-radius: 5px; */
 }
 
 /* Header Section */
 header {
-    width: 100%;
-    padding: 50px 20px;
-    background: linear-gradient(120deg, #3498db, #8e44ad);
-    color: white;
-}
+  text-align: center;
+  width:100%;
+  margin-right:10px;
+  padding: 50px 20px;
+  background: linear-gradient(120deg, #3498db, #8e44ad);
+  color: white;
+  /* border-radius: 10px; */
+} 
 
 header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
 }
 
 header h1 span {
-    color: #f1c40f;
+  color: #f1c40f;
 }
 
 header p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
 }
 
 header a {
-    display: inline-block;
-    padding: 10px 20px;
-    color: #333;
-    background: #f1c40f;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: 0.3s ease;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #333;
+  background: #f1c40f;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
 }
 
 header a:hover {
-    background: #e67e22;
-    color: white;
+  background: #e67e22;
+  color: white;
 }
 
 /* About Section */
 #about {
-    width: 100%;
-    padding: 50px 20px;
-    text-align: center;
-    background: #ecf0f1;
-    border-radius: 10px;
-    min-height: 200px;
+  width:100%;
+  margin-right: 250px;
+  padding: 50px 20px;
+  text-align: center;
+  background: #ecf0f1;
+  border-radius: 10px;
+  min-height: 200px;
 }
 
 #about h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: #8e44ad;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #8e44ad;
 }
+
 
 /* ---------- Tablet ---------- */
 @media (max-width: 992px) {
