@@ -44,3 +44,42 @@
 .nav-item a:hover {
     text-decoration: underline; /* Add hover effect if needed */
 }
+/* Tablet */
+@media (max-width: 768px) {
+    .logo-container {
+        justify-content: center;
+    }
+
+    .footer-nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-list {
+        gap: 15px;
+    }
+
+    .nav-item a {
+        font-size: 14px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .logo {
+        width: 80px;
+    }
+
+    .footer-nav {
+        width: 100%;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .nav-item a {
+        font-size: 13px;
+    }
+}
