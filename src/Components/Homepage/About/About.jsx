@@ -9,34 +9,36 @@ const About = () => {
 
 
   return (
-    <div class='container-443'>
-      <p> Hi.. I'm <b>Latha form INDIA</b>
+  <div className='container-443'>
+    <p>
+      Hi.. I'm <b>Latha from Hyderabad, India</b>
       <br />
       <br />
-        I have great respect for your journey.
-        <br />
-        <br />
 
-      Every <b>International student</b> carries a story of courage, sacrifice, and ambition. Choosing to leave home and build a future in a new country is never easy, and I truly admire the strength behind that decision.
-       <br /><br />
+      I am a <b>B.Tech Graduate from JNTUK University</b>.
+      <br />
+      <br />
 
-        My mission is to support USA students through dedicated job marketing support for up to 2–3 months, helping them gain visibility, connect with the right opportunities, and stay confident throughout their job search journey.
-        <br />
-        <br />
+      I have over <b>1 year of experience in Resume Support</b>, helping USA-based students and job seekers secure full-time opportunities in roles such as <b>Data Analyst, Business Analyst, Quality Engineer, Manufacturing Engineer</b>, and related fields.
+      <br />
+      <br />
 
-        Your hard work creates success. I'm here to help your talent get noticed and move one step closer to the future you've worked so hard to build.
-        <br />
-        <br />
+      Prior to this, I gained <b>2 years of professional experience in the Software Industry</b>, where I developed strong analytical, technical, and problem-solving skills.
+      <br />
+      <br />
 
-        Your dream. Your effort. Your success.<br /><br />
-        <b>Thank You!!</b> <b>In Advance</b>
+      Additionally, I have <b>3 years of freelancing experience with Chegg India Pvt. Ltd.</b>, providing academic support and assisting students in achieving their learning goals.
+      <br />
+      <br />
 
+      I am passionate about helping candidates build strong ATS-friendly resumes, improve their job search strategy, and move closer to their career goals.
+      <br />
+      <br />
 
-      </p>
-
-    </div>
-  )
+      <b>Thank You For Visiting My Portfolio!</b>
+    </p>
+  </div>
+)
 }
 
 export default About;
-

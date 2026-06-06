@@ -1,11 +1,10 @@
 import React, { useEffect } from 'react'
 import './Skills.css'
 
+import businessImage from '../../Homepage/Images/business.png';
+import qualityImage from '../../Homepage/Images/quality.png';
+import manufactureImage from '../../Homepage/Images/manufature.png';
 
-import htmlImage from '../images/html.jpeg';
-import cssImage from '../images/css.jpeg';
-import jsImage from '../images/js.jpeg';
-import reactImage from '../images/react.jpeg';
 
 function Skills() {
   useEffect(() => {
@@ -25,7 +24,8 @@ function Skills() {
 
      <div className="product">
   <div className="product-list">
-    <img src={htmlImage} alt="data-analyst" />
+    <img src={businessImage} alt="Business" />
+  
     <h3>Business or Data Analyst </h3><br />
 
     <ul>
@@ -45,7 +45,8 @@ function Skills() {
 
 
 <div className="product-list">
-  <img src={cssImage} alt="quality-engineer" />
+  <img src={qualityImage} alt="Quality" />
+  
   <h3>Quality Engineer</h3><br />
 
   <ul>
@@ -66,7 +67,8 @@ function Skills() {
 </div>
 
           <div className="product-list">
-            <img src={jsImage} alt="js" />
+            <img src={manufactureImage} alt="manufature" />
+            
             <h3>Manufacture Engineer</h3><br />
              <ul>
     <li>Manufacturing Engineer (Entry Level)</li><br />

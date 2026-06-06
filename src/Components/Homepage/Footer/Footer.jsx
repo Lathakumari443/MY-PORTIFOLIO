@@ -47,7 +47,6 @@ const Footer = () => {
                     <li className='ms-3 mt-2'><Link  to='/home'>Home</Link></li>
                     <li className='ms-3 mt-2'><Link  to='/about'>About</Link></li>
                     <li className='ms-3 mt-2'><Link  to='/resume'>Skills</Link></li>
-                    <li className='ms-3 mt-2'><Link  to='/projects'>Projects</Link></li>
                     <li className='ms-3 mt-2'><Link  to='/stories'>Resume</Link></li>
                     <li className='ms-3 mt-2'><Link  to='/contact'>Contact</Link></li>
                   

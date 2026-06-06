@@ -1,6 +1,10 @@
 import React, {useEffect} from 'react';
 import './Resume.css';
-import resumeImage from '../images/Latha_kumari_matthe_resume.pdf'
+import resumeDataAnalyst from '../../Homepage/Images/Latha Matthe _Business Data Analyst_Resume.pdf';
+import resumeBusinessAnalyst from '../../Homepage/Images/Latha Matthe _Business systems Analyst_Resume.pdf';
+import resumeBA_ATS_Analyst from '../../Homepage/Images/Latha_Matthe BA_ATS_Resume.pdf';
+import resumeQualityAnalyst from '../../Homepage/Images/Latha Matthe_Quality Engineer_Resume.pdf';
+import resumeManufacturingAnalyst from '../../Homepage/Images/Latha Matthe_ Manufacture Engineer_Resume.pdf';
 
 const Resume = () => {
 
@@ -8,32 +12,111 @@ const Resume = () => {
     document.title = 'My_Portfolio || Resume'
 },[])
 
-  return (
+   return (
     <div className="resume-container">
-      
-      {/* Embed PDF in the page */}
-      <embed 
-        src={resumeImage}
-        type="application/pdf" 
-        width="100%" 
-        height="600px" 
-        alt="Resume" 
-      />
 
-      <div className="download-section">
-        <a 
-          href='../../assets/images/.pdf' 
-          download="Latha_kumari_resume.pdf"
-          className="btn btn-danger download-btn"
-        >
-          Download Resume
-        </a>
+      <h1 className="title">Sample Resumes</h1>
+
+      <p className="subtitle">
+        ATS Friendly Sample Resumes for Different Roles
+      </p>
+
+      <div className="resume-grid">
+
+        {/* Business Data Analyst */}
+        <div className="resume-card">
+          <h3>Business Data Analyst</h3>
+
+          <embed
+            src={resumeDataAnalyst}
+            type="application/pdf"
+          />
+
+          <a
+            href={resumeDataAnalyst}
+            download="Latha Matthe _Business Data Analyst_Resume.pdf"
+            className="download-btn"
+          >
+            Download Resume
+          </a>
+        </div>
+
+        {/* Business Systems Analyst */}
+        <div className="resume-card">
+          <h3>Business Systems Analyst</h3>
+
+          <embed
+            src={resumeBusinessAnalyst}
+            type="application/pdf"
+          />
+
+          <a
+            href={resumeBusinessAnalyst}
+            download="Latha Matthe _Business systems Analyst_Resume.pdf"
+            className="download-btn"
+          >
+            Download Resume
+          </a>
+        </div>
+
+        {/* Business Analyst ATS */}
+        <div className="resume-card">
+          <h3>BA ATS Resume</h3>
+
+          <embed
+            src={resumeBA_ATS_Analyst}
+            type="application/pdf"
+          />
+
+          <a
+            href={resumeBA_ATS_Analyst}
+            download="Latha_Matthe BA_ATS_Resume.pdf"
+            className="download-btn"
+          >
+            Download Resume
+          </a>
+        </div>
+
+        {/* Quality Engineer */}
+        <div className="resume-card">
+          <h3>Quality Engineer</h3>
+
+          <embed
+            src={resumeQualityAnalyst}
+            type="application/pdf"
+          />
+
+          <a
+            href={resumeQualityAnalyst}
+            download="Latha Matthe_Quality Engineer_Resume.pdf"
+            className="download-btn"
+          >
+            Download Resume
+          </a>
+        </div>
+
+        {/* Manufacturing Engineer */}
+        <div className="resume-card">
+          <h3>Manufacturing Engineer</h3>
+
+          <embed
+            src={resumeManufacturingAnalyst}
+            type="application/pdf"
+          />
+
+          <a
+            href={resumeManufacturingAnalyst}
+            download="Latha Matthe_ Manufacture Engineer_Resume.pdf"
+            className="download-btn"
+          >
+            Download Resume
+          </a>
+        </div>
+
       </div>
+
     </div>
   );
 };
 
 export default Resume;
-
-
-

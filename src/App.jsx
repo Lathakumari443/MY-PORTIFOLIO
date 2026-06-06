@@ -7,7 +7,7 @@ import Home from './Components/Home/Home';
 // import PageNotFound from './Components/Homepage/PageNotFound/PageNotFound';
 import About from './Components/Homepage/About/About';
 import Skills from './Components/Homepage/Skills/Skills'
-// import Projects from './Components/Homepage/Projects/Projects';
+//import Projects from './Components/Homepage/Projects/Projects';
 import Resume from './Components/Homepage/Resume/Resume'; 
 import Contact from './Components/Homepage/Contact/Conatct';
 
@@ -29,7 +29,7 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/skills" element={<Skills />} />
         {/* <Route path="/projects" element={<Projects />} /> */}
-        <Route path="/resume" element={<Resume />} />
+        {<Route path="/resume" element={<Resume />} /> }
         <Route path="/contact" element={<Contact />} />
         {/* <Route path="*" element={<Navigate to="/" />} /> */}
         <Route path="*" element={<Home />} />

@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import './Header.css'; // Import the CSS file for custom styles
 import { Link } from 'react-router-dom';
 
-import lathaImage from '../images/latha.jpeg';
+import lathaImage from '../../Homepage/Images/latha.jpeg';
 
 const Header = () => {
 
@@ -26,7 +26,7 @@ const Header = () => {
             </div>
 
             <div className="AboutMe-img">
-              <img src={lathaImage} alt="latha" />
+              <img src={lathaImage} alt="Latha" />
 
             </div>
           </header>
@@ -36,24 +36,10 @@ const Header = () => {
             <p>
               Hi, I'm <b>Latha</b> from Hyderabad, India.
               <br />
-              <br />
-              I know the courage it takes to leave your <b>Country, family, and comfort zone to build a future in a new country.
-              <br />
-              <br /></b>
-
-              Every day, you face challenges, uncertainty, and pressure while chasing your dreams. I truly appreciate the effort, dedication, and strength behind your journey.
-              <br />
-              <br />
-
-              That's why I provide dedicated job marketing support to USA students for up to 2–3 months, helping them gain visibility and connect with the right opportunities.
-              <br />
-              <br />
-
-              Your hard work is 99% of the journey. If my support can contribute even 1% toward helping you achieve your goals, that brings me great satisfaction.
-              <br />
-              <br />
-
-              This platform was created with one mission — to support ambitious students and be a small part of their success story.
+            
+              I provide <b>2 Months of Resume Support & Job Marketing Support</b> for USA students. <b /></p>
+            <p> And also helping them explore <b> Full-Time opportunities</b>and <b>Improve their Job search journey...</b> and I'm happy to be a small part of that journey.
+          
             </p>
 
 
