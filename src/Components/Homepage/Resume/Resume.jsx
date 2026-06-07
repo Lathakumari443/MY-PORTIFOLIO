@@ -13,110 +13,125 @@ const Resume = () => {
 },[])
 
    return (
-    <div className="resume-container">
+  <div className="resume-container">
 
-      <h1 className="title">Sample Resumes</h1>
+    <h1 className="title">Sample Resumes</h1>
 
-      <p className="subtitle">
-        ATS Friendly Sample Resumes for Different Roles
-      </p>
+    <p className="subtitle">
+      ATS Friendly Sample Resumes for Different Roles
+    </p>
 
-      <div className="resume-grid">
+    <div className="resume-grid">
 
-        {/* Business Data Analyst */}
-        <div className="resume-card">
-          <h3>Business Data Analyst</h3>
+      {/* Business Data Analyst */}
+      <div className="resume-card">
+        <h3>Business Data Analyst</h3>
 
+        <div className="pdf-wrapper">
           <iframe
-            src={resumeDataAnalyst}
-            type="application/pdf"
+            src={`${resumeDataAnalyst}#toolbar=0`}
+            title="Business Data Analyst Resume"
           />
-
-          <a
-            href={resumeDataAnalyst}
-            download="Latha Matthe _Business Data Analyst_Resume.pdf"
-            className="download-btn"
-          >
-            Download Resume
-          </a>
         </div>
 
-        {/* Business Systems Analyst */}
-        <div className="resume-card">
-          <h3>Business Systems Analyst</h3>
+        <a
+          href={resumeDataAnalyst}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="download-btn"
+        >
+          View Resume
+        </a>
+      </div>
 
+      {/* Business Systems Analyst */}
+      <div className="resume-card">
+        <h3>Business Systems Analyst</h3>
+
+        <div className="pdf-wrapper">
           <iframe
-            src={resumeBusinessAnalyst}
-            type="application/pdf"
+            src={`${resumeBusinessAnalyst}#toolbar=0`}
+            title="Business Systems Analyst Resume"
           />
-
-          <a
-            href={resumeBusinessAnalyst}
-            download="Latha Matthe _Business systems Analyst_Resume.pdf"
-            className="download-btn"
-          >
-            Download Resume
-          </a>
         </div>
 
-        {/* Business Analyst ATS */}
-        <div className="resume-card">
-          <h3>BA ATS Resume</h3>
+        <a
+          href={resumeBusinessAnalyst}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="download-btn"
+        >
+          View Resume
+        </a>
+      </div>
 
+      {/* BA ATS Resume */}
+      <div className="resume-card">
+        <h3>BA ATS Resume</h3>
+
+        <div className="pdf-wrapper">
           <iframe
-            src={resumeBA_ATS_Analyst}
-            type="application/pdf"
+            src={`${resumeBA_ATS_Analyst}#toolbar=0`}
+            title="BA ATS Resume"
           />
-
-          <a
-            href={resumeBA_ATS_Analyst}
-            download="Latha_Matthe BA_ATS_Resume.pdf"
-            className="download-btn"
-          >
-            Download Resume
-          </a>
         </div>
 
-        {/* Quality Engineer */}
-        <div className="resume-card">
-          <h3>Quality Engineer</h3>
+        <a
+          href={resumeBA_ATS_Analyst}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="download-btn"
+        >
+          View Resume
+        </a>
+      </div>
 
+      {/* Quality Engineer */}
+      <div className="resume-card">
+        <h3>Quality Engineer</h3>
+
+        <div className="pdf-wrapper">
           <iframe
-            src={resumeQualityAnalyst}
-            type="application/pdf"
+            src={`${resumeQualityAnalyst}#toolbar=0`}
+            title="Quality Engineer Resume"
           />
-
-          <a
-            href={resumeQualityAnalyst}
-            download="Latha Matthe_Quality Engineer_Resume.pdf"
-            className="download-btn"
-          >
-            Download Resume
-          </a>
         </div>
 
-        {/* Manufacturing Engineer */}
-        <div className="resume-card">
-          <h3>Manufacturing Engineer</h3>
+        <a
+          href={resumeQualityAnalyst}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="download-btn"
+        >
+          View Resume
+        </a>
+      </div>
 
+      {/* Manufacturing Engineer */}
+      <div className="resume-card">
+        <h3>Manufacturing Engineer</h3>
+
+        <div className="pdf-wrapper">
           <iframe
-            src={resumeManufacturingAnalyst}
-            type="application/pdf"
+            src={`${resumeManufacturingAnalyst}#toolbar=0`}
+            title="Manufacturing Engineer Resume"
           />
-
-          <a
-            href={resumeManufacturingAnalyst}
-            download="Latha Matthe_ Manufacture Engineer_Resume.pdf"
-            className="download-btn"
-          >
-            Download Resume
-          </a>
         </div>
 
+        <a
+          href={resumeManufacturingAnalyst}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="download-btn"
+        >
+          View Resume
+        </a>
       </div>
 
     </div>
-  );
+
+  </div>
+);
 };
 
 export default Resume;

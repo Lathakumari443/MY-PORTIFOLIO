@@ -38,7 +38,7 @@ const Header = () => {
               <br />
             
               I provide <b>2 Months of Resume Support & Job Marketing Support</b> for USA students. <b /></p>
-            <p> And also helping them explore <b> Full-Time opportunities</b>and <b>Improve their Job search journey...</b> and I'm happy to be a small part of that journey.
+            <p> And also helping them explore <b> Full-Time opportunities</b> and <b>Improve their Job search journey...</b> and I'm happy to be a small part of that journey.
           
             </p>
 

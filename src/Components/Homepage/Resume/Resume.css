@@ -7,7 +7,21 @@
   box-sizing: border-box;
 }
 
-/* Grid */
+/* Heading */
+.title {
+  font-size: 42px;
+  color: blueviolet;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Grid Layout */
 .resume-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -15,69 +29,120 @@
   margin-top: 30px;
 }
 
-/* Card */
+/* Resume Card */
 .resume-card {
-  background: white;
+  background: #fff;
   padding: 15px;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
 
-/* PDF wrapper (MOST IMPORTANT) */
+.resume-card:hover {
+  transform: translateY(-5px);
+}
+
+.resume-card h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* PDF Preview */
 .pdf-wrapper {
   width: 100%;
-  height: 400px;
+  height: 600px;
   overflow: hidden;
   border-radius: 10px;
-  margin: 10px 0;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+  background: #fff;
 }
 
 .pdf-wrapper iframe {
   width: 100%;
   height: 100%;
   border: none;
+  display: block;
 }
 
-/* Title */
-.title {
-  font-size: 42px;
-  color: blueviolet;
-  margin-bottom: 10px;
-}
-
-.subtitle {
-  font-size: 16px;
-  color: #555;
-}
-
-/* Download button */
+/* Button */
 .download-btn {
   display: inline-block;
-  margin-top: 10px;
-  padding: 8px 14px;
-  background: rgb(226, 11, 21);
+  padding: 10px 18px;
+  background-color: rgb(226, 11, 21);
   color: white;
-  border-radius: 6px;
   text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s ease;
 }
 
-/* 📱 Responsive breakpoints */
+.download-btn:hover {
+  opacity: 0.9;
+  transform: scale(1.03);
+}
+
+/* Tablet */
 @media (max-width: 1024px) {
   .resume-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .pdf-wrapper {
+    height: 500px;
+  }
 }
 
+/* Mobile */
 @media (max-width: 768px) {
+  .resume-container {
+    padding: 20px 10px;
+  }
+
   .resume-grid {
     grid-template-columns: 1fr;
+    gap: 20px;
   }
 
   .title {
-    font-size: 28px;
+    font-size: 30px;
+  }
+
+  .subtitle {
+    font-size: 15px;
+  }
+
+  .resume-card {
+    padding: 12px;
+  }
+
+  .resume-card h3 {
+    font-size: 18px;
   }
 
   .pdf-wrapper {
-    height: 300px;
+    height: 550px; /* Mobile lo full PDF kanipinchadaniki */
+  }
+
+  .download-btn {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .title {
+    font-size: 24px;
+  }
+
+  .subtitle {
+    font-size: 14px;
+  }
+
+  .pdf-wrapper {
+    height: 500px;
   }
 }
